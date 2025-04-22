@@ -102,7 +102,7 @@ const Navbar = () => {
                 </div>
               </li>
               <li><Link to="/sell" onClick={() => setIsMobileMenuOpen(false)}>Sell</Link></li>
-              <li><Link to="/yield-calculator" onClick={() => setIsMobileMenuOpen(false)}>Yield Calculator</Link></li>
+              {/* <li><Link to="/yield-calculator" onClick={() => setIsMobileMenuOpen(false)}>Yield Calculator</Link></li> */}
               <li><Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>About Us</Link></li>
             </ul>
           </nav>

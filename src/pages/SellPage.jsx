@@ -1,4 +1,7 @@
-
+import { useContext ,useState ,useEffect} from "react";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../context/AuthContext";
+import { FaRupeeSign,FaWeightHanging,FaCamera } from 'react-icons/fa';
 const SellPage = () => {
   const { isAuthenticated, user } = useContext(AuthContext);
   const navigate = useNavigate();

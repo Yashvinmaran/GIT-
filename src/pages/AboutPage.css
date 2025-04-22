@@ -1,5 +1,6 @@
 /* pages/AboutPage.css */
 .about-page {
+  margin-top: 80px;
   padding: 20px;
   display: flex;
   justify-content: center;

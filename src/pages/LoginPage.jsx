@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { FaUser, FaLock } from 'react-icons/fa';
 import { AuthContext } from '../context/AuthContext';
-// import './LoginPage.css';
+import './LoginPage.css';
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({
@@ -101,28 +101,6 @@ const LoginPage = () => {
         
         <div className="login-footer">
           <p>Don't have an account? <Link to="/register">Register Now</Link></p>
-        </div>
-      </div>
-      
-      <div className="login-benefits">
-        <h2>Benefits of FasalBazaar</h2>
-        <div className="benefits-list">
-          <div className="benefit-item">
-            <div className="benefit-icon">🚜</div>
-            <div className="benefit-text">Direct connection with farmers</div>
-          </div>
-          <div className="benefit-item">
-            <div className="benefit-icon">💰</div>
-            <div className="benefit-text">Better prices without middlemen</div>
-          </div>
-          <div className="benefit-item">
-            <div className="benefit-icon">🌾</div>
-            <div className="benefit-text">Fresh produce with guaranteed quality</div>
-          </div>
-          <div className="benefit-item">
-            <div className="benefit-icon">🚚</div>
-            <div className="benefit-text">Fast doorstep delivery</div>
-          </div>
         </div>
       </div>
     </div>
