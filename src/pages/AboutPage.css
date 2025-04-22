@@ -1,0 +1,81 @@
+/* pages/AboutPage.css */
+.about-page {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.about-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.about-icon {
+  font-size: 2em;
+  color: #28a745; /* Green color */
+  margin-right: 15px;
+}
+
+.about-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.mission-statement {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}
+
+.section-icon {
+  font-size: 1.5em;
+  color: #007bff; /* Blue color */
+  margin-right: 10px;
+}
+
+.about-container h2 {
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.our-story p,
+.our-values ul,
+.contact-us p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.our-values ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.our-values li {
+  margin-bottom: 10px;
+}
+
+.our-values li strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-us a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-us a:hover {
+  text-decoration: underline;
+}

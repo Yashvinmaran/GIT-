@@ -1,0 +1,120 @@
+/* components/home/BlogSection.css */
+.blog-section {
+  padding: 40px 20px;
+  background-color: #f8f9fa; /* Light grey background */
+  text-align: center;
+}
+
+.blog-section h2 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.blog-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.post-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.post-info {
+  padding: 20px;
+  text-align: left;
+}
+
+.post-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #28a745; /* Green title color */
+}
+
+.post-date {
+  color: #6c757d; /* Grey date color */
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.post-excerpt {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 0.95em;
+}
+
+.read-more-button {
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.read-more-button:hover {
+  background-color: #0056b3;
+}
+
+.view-all-blog {
+  margin-top: 20px;
+}
+
+.view-all-blog a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.view-all-blog a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.blog-section.loading,
+.blog-section.error,
+.blog-section.empty {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+}
+
+.blog-section.error {
+  color: #dc3545;
+}
+
+.blog-section.empty .empty-icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}

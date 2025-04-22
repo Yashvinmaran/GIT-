@@ -1,0 +1,78 @@
+/* pages/RefundPolicyPage.css */
+.refund-policy-page {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.refund-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.refund-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.last-updated {
+  color: #777;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.refund-container h2 {
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.refund-container section {
+  margin-bottom: 30px;
+}
+
+.refund-container p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.refund-container ul,
+.refund-container ol {
+  list-style-type: disc;
+  padding-left: 30px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.refund-container ol {
+  list-style-type: decimal;
+}
+
+.refund-container li {
+  margin-bottom: 8px;
+}
+
+.refund-container strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.refund-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.refund-container a:hover {
+  text-decoration: underline;
+}

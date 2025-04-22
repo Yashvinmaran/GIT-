@@ -1,0 +1,64 @@
+/* components/home/DownloadApp.css */
+.download-app-section {
+  background-color: #d1ecf1; /* Light cyan background */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.download-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.mobile-icon {
+  font-size: 3em;
+  color: #007bff; /* Blue mobile icon */
+  margin-bottom: 20px;
+}
+
+.download-content h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.download-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.play-store-button,
+.app-store-button {
+  background-color: #28a745; /* Green for Play Store */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.app-store-button {
+  background-color: #343a40; /* Dark grey for App Store */
+}
+
+.play-store-button:hover,
+.app-store-button:hover {
+  opacity: 0.9;
+}
+
+.button-icon {
+  font-size: 1.2em;
+}

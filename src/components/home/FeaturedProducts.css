@@ -1,0 +1,39 @@
+/* components/home/FeaturedProducts.css */
+.featured-products {
+  padding: 30px 20px;
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dee2e6; /* Light border */
+}
+
+.section-header h2 {
+  color: #333;
+  margin: 0;
+}
+
+.view-all {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.3s ease-in-out;
+}
+
+.view-all:hover {
+  color: #0056b3;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Agar aapke paas ProductCard ke liye bhi CSS hai, toh woh styling yahan par apply hogi */
+/* Agar nahi hai, toh ProductCard ko style karne ke liye aapko ek alag CSS file banani hogi (e.g., ProductCard.css) */
