@@ -53,9 +53,9 @@ const HomePage = () => {
       </section>
 
       <TestimonialSection />
-      <FarmerSpotlight />
-      <BlogSection />
-      <DownloadApp />
+      {/* <FarmerSpotlight /> */}
+      {/* <BlogSection /> */}
+      {/* <DownloadApp /> */}
 
       {/* Other sections of the homepage */}
     </div>
